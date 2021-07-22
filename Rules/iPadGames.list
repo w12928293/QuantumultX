@@ -2,15 +2,15 @@
 # UPDATED: 2021-07-22
 
 # steam
-HOST-SUFFIX,steamcommunity.com
+HOST-SUFFIX,steamcommunity.com,Games
 ##- Riot
-HOST-KEYWORD,riotgames
-HOST-KEYWORD,riotcdn
-HOST-KEYWORD,wildrift
-HOST-SUFFIX,pvp.net
+HOST-KEYWORD,riotgames,Games
+HOST-KEYWORD,riotcdn,Games
+HOST-KEYWORD,wildrift,Games
+HOST-SUFFIX,pvp.net,Games
 ##- C&C
-HOST-SUFFIX,ea.com
-HOST-SUFFIX,tnt-ea.com
-HOST-SUFFIX,eamobile.com
-HOST-SUFFIX,scorpion-ea.com
-HOST-SUFFIX,crashlytics.com
+HOST-SUFFIX,ea.com,Games
+HOST-SUFFIX,tnt-ea.com,Games
+HOST-SUFFIX,eamobile.com,Games
+HOST-SUFFIX,scorpion-ea.com,Games
+HOST-SUFFIX,crashlytics.com,Games
