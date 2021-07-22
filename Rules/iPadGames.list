@@ -1,0 +1,16 @@
+# 内容：iPad游戏
+# UPDATED: 2021-07-22
+
+# steam
+HOST-SUFFIX,steamcommunity.com
+##- Riot
+HOST-KEYWORD,riotgames
+HOST-KEYWORD,riotcdn
+HOST-KEYWORD,wildrift
+HOST-SUFFIX,pvp.net
+##- C&C
+HOST-SUFFIX,ea.com
+HOST-SUFFIX,tnt-ea.com
+HOST-SUFFIX,eamobile.com
+HOST-SUFFIX,scorpion-ea.com
+HOST-SUFFIX,crashlytics.com
