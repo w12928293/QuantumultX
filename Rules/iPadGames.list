@@ -8,6 +8,7 @@ HOST-KEYWORD,riotgames,Games
 HOST-KEYWORD,riotcdn,Games
 HOST-KEYWORD,wildrift,Games
 HOST-SUFFIX,pvp.net,Games
+HOST-SUFFIX,newrelic.com,Games
 ##- C&C
 HOST-SUFFIX,ea.com,Games
 HOST-SUFFIX,tnt-ea.com,Games
