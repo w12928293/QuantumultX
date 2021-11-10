@@ -15,3 +15,6 @@ HOST-SUFFIX,tnt-ea.com,Games
 HOST-SUFFIX,eamobile.com,Games
 HOST-SUFFIX,scorpion-ea.com,Games
 HOST-SUFFIX,crashlytics.com,Games
+##- PascalsWager
+HOST-KEYWORD,ztgame,Games
+HOST-KEYWORD,mobileztgame,Games
