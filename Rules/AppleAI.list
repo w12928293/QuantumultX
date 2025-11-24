@@ -1,12 +1,13 @@
 # 内容：Apple-Intelligence
 # UPDATED: 2025-11-24
 
-HOST-SUFFIX,gateway.icloud.com,AppleAI
-HOST-SUFFIX,gspe1-ssl.ls.apple.com,AppleAI
-HOST-SUFFIX,apps.mzstatic.com,AppleAI
 HOST-SUFFIX,guzzoni.apple.com,AppleAI
 HOST-SUFFIX,smoot.apple.com,AppleAI
 HOST-SUFFIX,apple-relay.cloudflare.com,AppleAI
 HOST-SUFFIX,apple-relay.fastly-edge.com,AppleAI
 HOST-SUFFIX,cp4.cloudflare.com,AppleAI
 HOST-SUFFIX,apple-relay.apple.com,AppleAI
+HOST-SUFFIX,ls.apple.com,AppleAI
+HOST-SUFFIX,gateway.icloud.com,AppleAI
+HOST-SUFFIX,gspe1-ssl.ls.apple.com,AppleAI
+HOST-SUFFIX,apps.mzstatic.com,AppleAI
