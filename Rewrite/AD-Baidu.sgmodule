@@ -4,6 +4,15 @@
 
 [Url Rewrite]
 
+#京东开屏广告屏蔽(改写自surge)
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
+
+
+#百度地图开屏广告
+#hostname=*.bdstatic.com
+#^https?:\/\/.+\.bdstatic\.com\/-0U0bnSm1A5BphGlnYG\/tam-ogel\/.+\.jpg url reject
+^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg url reject
+
 # > 百度地图
 ^https:\/\/dss0.bdstatic.com\/-0U0bnSm1A5BphGlnYG\/ - reject-200
 ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.(jpg|mp4) - reject
@@ -68,6 +77,7 @@
 ^https?:\/\/sa\d\.tuisong\.baidu\.com - reject-img
 ^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*? - reject
 
+
 [MITM]
-hostname = zhidao.baidu.com, issuecdn.baidupcs.com, mbd.baidu.com, issuecdn.baidupcs.com, baidu.com, afd.baidu.com, appwk.baidu.com, sofire.baidu.com, pan.baidu.com, *.tieba.baidu.com, m.baidu.com, mime.baidu.com, newclient.map.baidu.com, www.baidu.com
+hostname = zhidao.baidu.com,api.m.jd.com,issuecdn.baidupcs.com,mbd.baidu.com,issuecdn.baidupcs.com,baidu.com,afd.baidu.com,appwk.baidu.com,sofire.baidu.com,pan.baidu.com,*.bdstatic.com,*.tieba.baidu.com,m.baidu.com,mime.baidu.com,newclient.map.baidu.com,www.baidu.com
 
