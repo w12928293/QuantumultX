@@ -1128,8 +1128,7 @@ vgtime = type=http-response,pattern=^http:\/\/app02\.vgtime\.com:8080\/vgtime-ap
 coolapk = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/coolapk.js
 # > 香蕉是一种水果
 xjsp = type=http-response,pattern=^https?:\/\/.+?\.(pipi|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|(\/|)vod\/reqplay\/),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
-# > 小米商城开屏广告
-myBlockAds = type=http-response,pattern=^https?:\/\/api\.m\.mi\.com\/v1\/app\/start,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
+
 
 
 # > 快手联盟,优量汇,穿山甲
@@ -1154,31 +1153,7 @@ rrtv_json = type=http-response,pattern=^https:\/\/api\.rr\.tv\/ad\/getAll,requir
 rrtv_json = type=http-response,pattern=^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
 # > RRTV_Watch_V4
 rrtv_json = type=http-response,pattern=https://api.rr.tv/watch/v4,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
-# > RRTV_User_Info
-rrtv_json = type=http-response,pattern=https://api.rr.tv/user/profile,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
-fly = type=http-response,pattern=^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1,requires-body=1,max-size=0,script-path=https://gitlab.com/fmz200/cuttlefish/-/raw/master/Crack/fly.js
-# > 什么值得买开屏广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买首页广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买好价广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买好价详情页广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买百科广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买搜索结果广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买搜索标签广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 什么值得买值会员权益中心banner广告
-smzdm_remove_ads = type=http-response,pattern=^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
-# > 微博开屏广告
-myBlockAds = type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com\/(interface\/sdk\/sdkad.php|wbapplua\/wbpullad.lua),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-# > 微博去广告
-weibo = type=http-response,pattern=^https?://m?api\.weibo\.c(n|om)/2/(cardlist|searchall|page|statuses/(unread_)?friends(/|_)timeline|groups/timeline|statuses/(unread_hot_timeline|extend|video_mixtimeline)|profile/(me|statuses)|video/(community_tab|remind_info|tiny_stream_video_list)|checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
-# > 微博自定义tab皮肤
-weibo_main = type=http-response,pattern=^https://api.weibo.cn/2/!/client/light_skin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
+
 # > 微博非会员设置tab皮肤
 weibo_main = type=http-response,pattern=^https://new.vip.weibo.cn/littleskin/preview,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js
 # > 微博国际版_推荐tab|热门tab去广告
