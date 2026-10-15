@@ -1,0 +1,13 @@
+# ================================================
+# 其他 Google 通用服务兜底规则 (搜索/Gmail/地图/Play商店等)
+# ================================================
+HOST-SUFFIX, google.com, Google
+HOST-SUFFIX, google.com.hk, Google
+HOST-SUFFIX, google.cn, Google
+HOST-SUFFIX, googleapis.com, Google
+HOST-SUFFIX, googleusercontent.com, Google
+HOST-SUFFIX, gstatic.com, Google
+HOST-SUFFIX, gvt1.com, Google
+HOST-SUFFIX, gvt2.com, Google
+HOST-SUFFIX, 1e100.net, Google
+HOST-KEYWORD, google, Google
