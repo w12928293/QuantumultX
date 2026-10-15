@@ -1,0 +1,19 @@
+# ================================================
+# 1. Gemini iOS App 专属规则 (优先级最高)
+# ================================================
+HOST-SUFFIX, gemini.google.com, Gemini
+HOST-SUFFIX, bard.google.com, Gemini
+HOST, alkalinetool-pa.googleapis.com, Gemini
+HOST, alkalimakersuite-pa.clients6.google.com, Gemini
+HOST, generativelanguage.googleapis.com, Gemini
+HOST, waa-pa.googleapis.com, Gemini
+HOST, proactivebackend-pa.googleapis.com, Gemini
+HOST, aisandbox-pa.googleapis.com, Gemini
+HOST, speechsynthesisouter-pa.googleapis.com, Gemini
+HOST, aida.googleapis.com, Gemini
+HOST, voiceplatform-pa.googleapis.com, Gemini
+HOST-SUFFIX, aistudio.google.com, Gemini
+HOST-SUFFIX, ai.google.dev, Gemini
+HOST-SUFFIX, makersuite.google.com, Gemini
+HOST-SUFFIX, deepmind.google, Gemini
+HOST-SUFFIX, deepmind.com, Gemini
