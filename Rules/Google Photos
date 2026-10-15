@@ -1,0 +1,7 @@
+# ================================================
+# Google 相册备份 专属规则
+# ================================================
+HOST-SUFFIX, photos.google.com, Photos
+HOST, photos.googleapis.com, Photos
+HOST, photos-pa.googleapis.com, Photos
+HOST, photos.clients6.google.com, Photos
