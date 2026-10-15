@@ -1,0 +1,9 @@
+# ================================================
+# YouTube 专属规则 (视频流媒体)
+# ================================================
+HOST-SUFFIX, googlevideo.com, YouTube
+HOST-SUFFIX, youtube.com, YouTube
+HOST-SUFFIX, ytimg.com, YouTube
+HOST-SUFFIX, youtu.be, YouTube
+HOST-SUFFIX, youtubei.googleapis.com, YouTube
+HOST-KEYWORD, youtube, YouTube
