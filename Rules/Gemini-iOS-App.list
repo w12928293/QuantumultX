@@ -1,8 +1,16 @@
 # ================================================
 # 1. Gemini iOS App 专属规则 (优先级最高)
 # ================================================
+# ================================================
+# 1. Gemini iOS App 专属规则 (优先级最高)
+# ================================================
 HOST-SUFFIX, gemini.google.com, Gemini
 HOST-SUFFIX, bard.google.com, Gemini
+
+# --- 新增的 robinfrontend 域名 ---
+HOST, robinfrontend-pa.googleapis.com, Gemini
+
+# --- 原有的核心 API 域名 ---
 HOST, alkalinetool-pa.googleapis.com, Gemini
 HOST, alkalimakersuite-pa.clients6.google.com, Gemini
 HOST, generativelanguage.googleapis.com, Gemini
@@ -12,6 +20,8 @@ HOST, aisandbox-pa.googleapis.com, Gemini
 HOST, speechsynthesisouter-pa.googleapis.com, Gemini
 HOST, aida.googleapis.com, Gemini
 HOST, voiceplatform-pa.googleapis.com, Gemini
+
+# --- 开发者及 AI 域名 ---
 HOST-SUFFIX, aistudio.google.com, Gemini
 HOST-SUFFIX, ai.google.dev, Gemini
 HOST-SUFFIX, makersuite.google.com, Gemini
