@@ -1,1 +1,14 @@
 
+# >>> Telegram ASN 与核心域名分流 <<<
+# 匹配 Telegram 专属服务器 ASN，通杀所有未知的 TG IP
+IP-ASN, 62014, Telegram
+IP-ASN, 62041, Telegram
+IP-ASN, 59930, Telegram
+IP-ASN, 44907, Telegram
+IP-ASN, 211157, Telegram
+
+# 匹配 Telegram 前端与分享域名
+HOST-SUFFIX, t.me, Telegram
+HOST-SUFFIX, tdesktop.com, Telegram
+HOST-SUFFIX, telegra.ph, Telegram
+HOST-SUFFIX, telegram.org, Telegram
